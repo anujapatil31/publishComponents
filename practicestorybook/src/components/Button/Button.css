@@ -1,0 +1,19 @@
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* this defines the base styling for the button */
+
+/* Now we can create variation with four more classes */
+
+.primary {background-color: #008CBA;}
+.secondary {background-color: #e7e7e7; color: black;}
+.success {background-color: #4CAF50;}
+.danger {background-color: #f44336;}

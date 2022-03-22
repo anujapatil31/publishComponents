@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid orange;
+}
+
+.footer-left > ul {
+    list-style-type: none;
+}
+.ul_button {
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid black;
+}
+.footer-right {
+    display: flex;
+    flex-direction: row;
+}
+.social_img {
+    width: 12.5px;
+    height: 12.5px;
+}
+.button {
+    border: none;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* this defines the base styling for the button */
+
+/* Now we can create variation with four more classes */
+
+.blue {background-color: #008CBA;}
+.black {background-color: #e7e7e7; color: black;}
+.green {background-color: #4CAF50;}
+.red {background-color: #f44336;}

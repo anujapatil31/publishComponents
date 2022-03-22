@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid orange;
+}
+
+.header_left > img {
+    object-fit: contain;
+    height: 50px;
+}
+
+.header_right > button{
+   padding: 10px;
+   margin: 15px;
+   border: 1px solid black;
+}
+.page {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    padding: 15px;
+  }
+.item_button {
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid black;
+}
